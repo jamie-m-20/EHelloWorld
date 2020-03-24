@@ -6,6 +6,8 @@ public class FancyMessage {
 		// TODO Auto-generated method stub
 		
 		StringBuffer s = new StringBuffer("How about that!!!");
+		s.append("\n");
+		s.append("Another Success");
 		System.out.println(s.toString());
 
 	}
